@@ -230,6 +230,13 @@ https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/ind
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://143.44.136.110:6910/001/2/ch00000090990000001283/manifest.mpd?virtualDomain=001.live_hls.zte.com
 
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Heart of Asia" tvg-logo="https://i.ibb.co/8451Jt9k/PBB-Unlimited-Logo-removebg-preview.png" group-title="RESERVED CHANNELS",PBB 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8438e8495659425585a09749cd6bc39a:9d92b12db092fe6bdf2207ef7a2a9e65
+https://abslive.akamaized.net/dash/live/2112806/pbbmain/manifest.mpd
+
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Heart of Asia" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/79/Heart_of_Asia_3D_Logo.png/revision/latest/scale-to-width-down/250?cb=20200713050134" group-title="RESERVED CHANNELS",Heart of Asia 
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://i.ibb.co/GQrbgTxF/1740974083797-removebg-preview.png" group-title="Local",GanbaTV
@@ -364,12 +371,13 @@ https://tglmp01.akamaized.net/out/v1/de55fad9216e4fe7ad8d2eed456ba1ec/manifest.m
 #KODIPROP:inputstream.adaptive.license_key=a2d1f552ff9541558b3296b5a932136b:cdd48fa884dc0c3a3f85aeebca13d444
 https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd
 
-
-
 #EXTINF:-1 tvg-id="24.7.DUMMY.us" tvg-logo="https://i.imgur.com/5gMIjA2.png" group-title="Local",Aniplus
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f2c313fce55344e5a52389741d1f53f8:bae1e47db562b66895beb8fccdf2ad8a
 https://cdn08jtedge.indihometv.com/dassdvr/107/aniplus/manifest.mpd
+
+#EXTINF:-1 tvg-id="24.7.DUMMY.us" tvg-logo="https://i.imgur.com/5gMIjA2.png" group-title="Local",Aniplus Eng sub
+http://169.150.243.5:3000/aniplus/dopamine/master.m3u8?secret=phcfree
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Cartoonito Asia" tvg-logo="https://i.imgur.com/x1wehbs.png" group-title="Local",Cartoonito 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -2234,7 +2242,17 @@ http://202.147.193.244/live/eds/Cinemachi-Max-HD/sa_dash_vmx/Cinemachi-Max-HD.mp
 http://202.147.193.244/live/eds/Cinemachi-Xtra-HD/sa_dash_vmx/Cinemachi-Xtra-HD.mpd
 
 #EXTINF:-79 tvg-logo="https://i.imgur.com/xX4CERA.png" group-logo="https://i.imgur.com/7rENkRg.png" group-title="Movie Central",SYFY
-http://sansat.cc:88/live/g25/ZNaMXGCdLDVne0g/95350.ts
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6e826cd8da45312596c0ebbc282d1094:072bd089aab2971765532433155fefdf
+https://g001-live-us-cmaf-prd-fy.pc...OL1-CTR-4s/Live/channel(syfy-west)/master.mpd
+
+#EXTINF:-79 tvg-logo="https://i.imgur.com/xX4CERA.png" group-logo="https://www.pickcinema.com/images/tv/logos/oxygn.png" group-title="Movie Central",OXYGEN
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=7aa9183e6b703715bbff54ec30dee718:293991812ea6ad078305deecfb2bc82f
+https://g001-live-us-cmaf-prd-fy.pc...1-CTR-4s/Live/channel(oxygen-west)/master.mpd
+
 
 #EXTINF:-50 tvg-logo="https://i.imgur.com/EYrAZFG.png" group-title="Movie Central",CINEEDGE
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -2493,6 +2511,36 @@ https://jmp2.uk/sam-US1400010S0.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/133/nba/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/russel/images/c/cb/NBA_Premium_TV_White_Logo_2010.png/revision/latest?cb=20180604072050" group-title="PREMIUM SPORTS", NBA TV Amazon
+#EXTVLCOPT:http-referrer=https://www.indihometv.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+http://ottb.live.cf.ww.aiv-cdn.net/.../v1/6e2f14320c194a5fb940dfd67d77b9ac/cenc.mpd
+
+#EXTINF:-1 tvg-id="The Golf Channel HDTV" tvg-name="NBC GOLF" tvg-logo="https://static.wikia.nocookie.net/logo-timeline/images/d/de/Nbcsphi_pri_fc_neg.png/revision/latest/scale-to-width-down/185?cb=20210407003842" group-title="PREMIUM SPORTS", NBC Sports Philadelphia
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=e07a6dfad8333a388f2a931a743621b9:638ff7ec62eeee611927f1d6d5baa146
+https://g001-live-us-cmaf-prd-fy.pc...OL1-CTR-4s/Live/channel(csnphilly)/master.mpd
+
+#EXTINF:-1 tvg-id="The Golf Channel HDTV" tvg-name="NBC GOLF" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/6/6a/NBC_4_New_York.svg/revision/latest?cb=20180506181011" group-title="PREMIUM SPORTS", NBC New York
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0f73521c174532e59711ccb4462ac770:f06c7f95319c0386b4fc5fa3d58ab504
+https://g001-live-us-cmaf-prd-fy.pc...AF_OL1-CTR-4s/Live/channel(csnnew)/master.mpd
+
+#EXTINF:-1 tvg-id="The Golf Channel HDTV" tvg-name="NBC GOLF" tvg-logo="https://static.wikia.nocookie.net/logosfake/images/2/20/NBC_Sports_Bay_Area.svg/revision/latest/scale-to-width-down/200?cb=20210306025742" group-title="PREMIUM SPORTS", NBC Sports Bay Area
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=20b593e9bee43324a8b1d830eaa82d78:a87dba51bd2dd7f7879730ac2bd4005b
+https://g001-live-us-cmaf-prd-fy.pc...AF_OL1-CTR-4s/Live/channel(csnbay)/master.mpd
+
 
 #EXTINF:-1 tvg-id="The Golf Channel HDTV" tvg-name="NBC GOLF" tvg-logo="https://i.ibb.co/v4CZ4xR/png-clipart-golf-channel-on-nbc-logo-trademark-golf-player-game-trademark-removebg-preview.png" group-title="PREMIUM SPORTS", NBC GOLF CHANNEL
 #KODIPROP:inputstreamaddon=inputstream.adaptive
