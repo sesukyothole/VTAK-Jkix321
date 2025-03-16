@@ -261,8 +261,14 @@ https://jungotvstream.chanall.tv/jungotv/combatgo/stream.m3u8
 #EXTINF:-1 tvg-id="" ch-number="" group-title="Local" tvg-logo="https://static.wixstatic.com/media/...Horizontal_Fullcolor_Variation_White-Pink.png",AWSN
 https://amg02188-amg02188c2-jungotv-northamerica-5717.playouts.now.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://rageteebee.vercel.app/logo.png" group-title="Local",Rage TV
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://rageteebee.vercel.app/logo.png" group-title="Local",Rage TV By Blaze
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/ragetv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://imgdrop.io/image/JW4OT" group-title="Local",BIHM TV BY Blaze
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8
+
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://imgdrop.io/image/2025-03-17-removebg-preview.JWLF9" group-title="Local",Sine Manila By Blaze
+https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/6mNCite.png" group-title="Local", TMC
 #KODIPROP:inputstreamaddon=inputstream.adaptive
