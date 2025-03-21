@@ -183,7 +183,9 @@ http://143.44.136.110:6910/001/2/ch00000090990000001324/manifest.mpd?virtualDoma
 
 
 #EXTINF:-1 tvg-id="Dummy" tvg-name="RJ TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/59/Screenshot_2019-08-30_at_5.25.09_PM.png" group-title="Local",RJ TV
-http://115.146.176.131:80/play/5i_LtAbpY7PhHy5sbZlWo5xy_L33HaRMmRHdbvhG42Q/ts
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
+http://143.44.136.110:6910/001/2/ch00000090990000001338/manifest.mpd?virtualDomain=001.live_hls.zte.com
 
 #EXTINF:-32 tvg-logo="https://i.imgur.com/28X1hNb.png" group-logo="https://i.imgur.com/083Ud3K.jpeg" group-title="Local",Radyo Bandido TV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -264,10 +266,10 @@ https://amg02188-amg02188c2-jungotv-northamerica-5717.playouts.now.amagi.tv/play
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://rageteebee.vercel.app/logo.png" group-title="Local",Rage TV By Blaze
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/ragetv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://imgdrop.io/image/JW4OT" group-title="Local",BIHM TV BY Blaze
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://i.ibb.co/HD4hF00d/2025-03-17-1-removebg-preview-1.png" group-title="Local",BIHM TV BY Blaze
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/bihm/playlist.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://imgdrop.io/image/2025-03-17-removebg-preview.JWLF9" group-title="Local",Sine Manila By Blaze
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="" tvg-logo="https://i.ibb.co/gFL3JypM/2025-03-17-removebg-preview.png" group-title="Local",Sine Manila By Blaze
 https://stream.gia.tv/giatv/giatv-ragetv/ragetv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/6mNCite.png" group-title="Local", TMC
@@ -381,9 +383,6 @@ https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_cartoonnetworkhd.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f2c313fce55344e5a52389741d1f53f8:bae1e47db562b66895beb8fccdf2ad8a
 https://cdn08jtedge.indihometv.com/dassdvr/107/aniplus/manifest.mpd
-
-#EXTINF:-1 tvg-id="24.7.DUMMY.us" tvg-logo="https://i.imgur.com/5gMIjA2.png" group-title="Local",Aniplus Eng sub
-http://169.150.243.5:3000/aniplus/dopamine/master.m3u8?secret=phcfree
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Cartoonito Asia" tvg-logo="https://i.imgur.com/x1wehbs.png" group-title="Local",Cartoonito 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
